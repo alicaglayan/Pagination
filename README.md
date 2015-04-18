@@ -1,6 +1,7 @@
 # Pagination
 
 $pagination = new Pagination();
+
 $pagination->setCurrentPage(1)
     ->setMaxPerPage(10)
     ->setMaxPerViewPage(5)
